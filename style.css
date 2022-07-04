@@ -16,7 +16,7 @@ nav{
    position: sticky;
    top: 0;
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -162,7 +162,24 @@ nav img{
     margin: 50px 0;
     padding: 30px 100px;
     box-shadow: 0px 0px 15px 5px gray;
+    border-radius: 15px;
 }
 i{
     padding-right: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, gray, black);
+    text-align: center;
+    color: rgb(243, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+footer h4{
+    margin-bottom: 10px;
 }
